@@ -1,4 +1,6 @@
 body{
+    color: #2b4850;
+    background-color: #ebd8c1;
     display: grid;
     flex-direction: row;
     grid-auto-rows: 1fr 2fr 1fr 1fr 1fr;
@@ -17,7 +19,13 @@ main{
 }
 
 aside{
+    color: #35575f;
+    background-color: #fbf0ef;
     grid-row: 3;
+}
+
+li{
+    list-style-type: square;
 }
 
 footer{
