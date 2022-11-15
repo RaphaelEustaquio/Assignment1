@@ -3,10 +3,8 @@ body{
     background-color: #ebd8c1;
     font-family:'Fragment Mono', monospace;
     display: grid;
-    flex-direction: row;
     grid-auto-rows: 1fr 2fr 1fr 1fr 1fr;
-    
-
+    height: 100vh;
 }
 
 nav{
@@ -33,6 +31,16 @@ footer{
     text-align: center;
 }
 
+.textbox{
+    width: 95%;
+    height: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 2px solid;
+    border-radius: 4px;
+    border-color: rgb(28, 156, 199);
+}
+
 .footerlist{
     display: flex;
     flex-direction: row;
@@ -44,3 +52,4 @@ footer{
 .icon{
     list-style-type: none;
 }
+
