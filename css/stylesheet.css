@@ -1,6 +1,7 @@
 body{
     color: #2b4850;
     background-color: #ebd8c1;
+    font-family:'Fragment Mono', monospace;
     display: grid;
     flex-direction: row;
     grid-auto-rows: 1fr 2fr 1fr 1fr 1fr;
