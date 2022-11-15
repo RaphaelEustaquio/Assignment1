@@ -83,6 +83,12 @@ footer{
     border-color: rgb(28, 156, 199);
 }
 
+.navlist{
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+}
+
 .footerlist{
     display: flex;
     flex-direction: row;
@@ -91,7 +97,7 @@ footer{
     gap: 1px;
 }
 
-.icon{
+.liststyle{
     list-style-type: none;
 }
 
