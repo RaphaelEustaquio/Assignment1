@@ -38,7 +38,26 @@ footer{
 
 .buttonpadding {
     padding: 10px 10px;
+    border-radius: 8px;
+    color: white;
 }
+
+.b1{
+    background-color: #5394A0;
+}
+
+.b2{
+    background-color: #6F6A87;
+}
+
+.b3{
+    background-color: #5394A0;
+}
+
+.b4{
+    background-color: #D9827C;
+}
+
 .textbox{
     width: 95%;
     height: 200px;
