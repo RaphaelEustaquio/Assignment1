@@ -54,12 +54,19 @@ footer{
     padding-bottom: 20px;
 }
 
-.buttonpadding {
+.buttonsettings{
     padding: 15px;
     border-radius: 8px;
     color: white;
     border: none;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
+
+.buttonsettings:active{
+    background-color: grey;
+}
+
 
 .b1{
     background-color: #5394A0;
