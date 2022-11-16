@@ -93,6 +93,10 @@ textarea{
     border-color: rgb(28, 156, 199);
 }
 
+textarea:focus{
+    outline: none;
+}
+
 .navlist{
     display: flex;
     gap: 15px;
