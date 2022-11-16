@@ -4,9 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Indie+Flower&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <title>Note-Taking Website</title>
 </head>
 <body>
+    <nav>
+        <header><h1>Take Better Notes</h1></header>
+        <ul class="navlist">
+            <li class="liststyle">About</li>
+            <li class="liststyle">Docs</li>
+        </ul>
+    </nav>
+    <aside>
+        <header><h1>My Notes</h1></header>
+        <ul class="asidelist">
+            <li>note one</li>
+            <li>note two</li>
+        </ul>
+    </aside>
+    <main>
+        <div class="space d1">
+            <button class="buttonsettings b1" type="button">New Note</button>
+            <button class="buttonsettings b2" type="button">Dark Theme</button>
+        </div>
+        <textarea name="notes" placeholder="This is a placeholder"></textarea>
+        <div class="space d2">
+            <button class="buttonsettings b3" type="button">Save</button>
+            <button class="buttonsettings b4" type="button">Cancel</button>
+        </div>
+    </main>
+    <footer>
+        <h2>Keep in Touch</h2>
+        <ul class="footerlist">
+            <li class="liststyle">
+                <a href="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-512.png">
+                    <img
+                    src="images/linkedinicon.png"
+                    alt="LinkedIn Icon"
+                    width="50"
+                    height="50"
+                ></a>
+            </li>
+            <li class="liststyle">
+                <a href="https://cdn0.iconfinder.com/data/icons/internet-line/512/Internet_Line-02-512.png">
+                    <img
+                    src="images/interneticon.png"
+                    alt="Internet Icon"
+                    width="50"
+                    height="50"
+                ></a>
+            </li>
+        </ul>
+    </footer>
     
 </body>
 </html>
