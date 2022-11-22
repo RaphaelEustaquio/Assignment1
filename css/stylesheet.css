@@ -13,14 +13,18 @@ nav{
     text-align: center;
 }
 
-main{
+.textcontainer{
     display: grid;
     grid-row: 2;
     text-align: center;
     margin: 10px;
 }
 
-aside{
+.textcontainerdark{
+    background-color: #373737;
+}
+
+.sidebar{
     display: flex;
     flex-direction: column;
     color: #35575f;
@@ -29,6 +33,11 @@ aside{
     padding: 10px;
     text-align: center;
 }
+
+.sidebardark{
+    background-color: #828385;
+}
+
 
 footer{
     text-align: center;
@@ -139,14 +148,14 @@ textarea:focus{
     body{
         grid-template-columns: 1fr 4fr;
     }
-    aside{
+    .sidebar{
         grid-column: 1;
         grid-row: 1/9;
     }
     nav{
         grid-column: 2;
     }
-    main{
+    .textcontainer{
         grid-column: 2;
     }
     footer{
