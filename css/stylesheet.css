@@ -87,8 +87,16 @@ footer{
     background-color: #355D69;
 }
 
+.b3dark{
+    background-color: #1a2e34;
+}
+
 .b4{
     background-color: #9A342D;
+}
+
+.b4dark{
+    background-color: #4d1a16;
 }
 
 textarea{
