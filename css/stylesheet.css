@@ -72,8 +72,15 @@ footer{
     background-color: #375D68;
 }
 
+.b1dark{
+    background-color: #1b2e34;
+}
 .b2{
     background-color: #57556D;
+}
+
+.b2dark{
+    background-color: #2b2a36;
 }
 
 .b3{
