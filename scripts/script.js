@@ -8,7 +8,11 @@ const cancelButton = document.querySelector(".b4");
 
 const sideBar = document.querySelector(".sidebar");
 
-const textContainer = document.querySelector(".textcontainer")
+const textContainer = document.querySelector(".textcontainer");
+
+const textArea = document.querySelector(".notes");
+
+const saveCancel = document.querySelector(".d2");
 
 function darkTheme(){
     newNoteButton.classList.toggle("b1dark");
@@ -27,6 +31,13 @@ function changeName(){
     };
 };
 
+function hideTextArea(){
+    textArea.classList.add("hidetext");
+    saveCancel.classList.add("hidetext")
+}
+
 darkThemeButton.addEventListener("click", darkTheme);
 
 darkThemeButton.addEventListener("click", changeName);
+
+cancelButton.addEventListener("click", hideTextArea);
