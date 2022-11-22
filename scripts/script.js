@@ -36,8 +36,20 @@ function hideTextArea(){
     saveCancel.classList.add("hidetext")
 }
 
+function newNote(){
+    if (textArea.classList.contains("hidetext")){
+        textArea.classList.remove("hidetext")
+        saveCancel.classList.remove("hidetext")
+    }
+    else{
+        textArea.value = ''
+    }
+}
+
 darkThemeButton.addEventListener("click", darkTheme);
 
 darkThemeButton.addEventListener("click", changeName);
 
 cancelButton.addEventListener("click", hideTextArea);
+
+newNoteButton.addEventListener("click", newNote)
