@@ -14,6 +14,21 @@ const textArea = document.querySelector(".notes");
 
 const saveCancel = document.querySelector(".d2");
 
+const sideBarList = document.querySelector(".asidelist")
+
+const notesArray = [
+    {
+        title: "note one", 
+        body: "this is my first note"
+    },
+    {
+        title: "note two",
+        body: "this is my second note"
+    }
+]
+
+let input = ""
+
 function darkTheme(){
     newNoteButton.classList.toggle("b1dark");
     saveButton.classList.toggle("b3dark");
@@ -46,10 +61,27 @@ function newNote(){
     }
 }
 
+function textAreaCheck(){
+    if (textArea.value !== ""){
+        console.log("working")
+        input = prompt("What is the title of the note?")
+        notesArray.push({title:input, body: textArea.value})
+        const listItemElement = document.createElement("li");
+        listItemElement.textContent = input;
+        sideBarList.appendChild(listItemElement);
+
+    }
+}
+
+
 darkThemeButton.addEventListener("click", darkTheme);
 
 darkThemeButton.addEventListener("click", changeName);
 
 cancelButton.addEventListener("click", hideTextArea);
 
-newNoteButton.addEventListener("click", newNote)
+newNoteButton.addEventListener("click", newNote);
+
+saveButton.addEventListener("click", textAreaCheck);
+
+sideBarList.addEventListener("click", displayNote)
