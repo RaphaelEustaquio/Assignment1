@@ -73,6 +73,12 @@ function textAreaCheck(){
     }
 }
 
+function displayNote(event){
+    for(let note of notesArray){
+        if(note.title.includes(event.target.textContent)){
+            textArea.value = note.body
+        }
+    }
 
 darkThemeButton.addEventListener("click", darkTheme);
 
