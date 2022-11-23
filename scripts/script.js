@@ -1,6 +1,6 @@
-const darkThemeButton = document.querySelector(".b2");
-
 const newNoteButton = document.querySelector(".b1");
+
+const darkThemeButton = document.querySelector(".b2");
 
 const saveButton = document.querySelector(".b3");
 
@@ -24,8 +24,6 @@ const notesArray = [
         body: "this is my second note"
     }
 ];
-
-let input = "";
 
 function darkTheme(){
     newNoteButton.classList.toggle("b1dark");
@@ -61,7 +59,7 @@ function newNote(){
 
 function textAreaCheck(){
     if (textArea.value !== ""){
-        input = prompt("What is the title of the note?");
+        let input = prompt("What is the title of the note?");
         notesArray.push({title:input, body: textArea.value});
         const listItemElement = document.createElement("li");
         listItemElement.textContent = input;
