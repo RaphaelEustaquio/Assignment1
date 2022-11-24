@@ -170,3 +170,7 @@ textarea:focus{
         grid-row: 1;
     }
 }
+
+.whitetext{
+    color: white;
+}

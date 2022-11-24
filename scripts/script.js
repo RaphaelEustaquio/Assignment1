@@ -31,6 +31,8 @@ function darkTheme(){
     cancelButton.classList.toggle("b4dark");
     sideBar.classList.toggle("sidebardark");
     document.body.classList.toggle("textcontainerdark");
+    document.body.classList.toggle("whitetext");
+    sideBar.classList.toggle("whitetext");
 }
 
 function changeName(){
