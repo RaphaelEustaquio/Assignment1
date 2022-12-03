@@ -81,14 +81,14 @@ footer{
 }
 
 
-.b1{
+.newnotebut{
     background-color: #375D68;
 }
 
 .b1dark{
     background-color: #1b2e34;
 }
-.b2{
+.darkthemebut{
     background-color: #57556D;
 }
 
@@ -96,7 +96,7 @@ footer{
     background-color: #2b2a36;
 }
 
-.b3{
+.savebut{
     background-color: #355D69;
 }
 
@@ -104,7 +104,7 @@ footer{
     background-color: #1a2e34;
 }
 
-.b4{
+.cancelbut{
     background-color: #9A342D;
 }
 

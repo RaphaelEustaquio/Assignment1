@@ -1,10 +1,10 @@
-const newNoteButton = document.querySelector(".b1");
+const newNoteButton = document.querySelector(".newnotebut");
 
-const darkThemeButton = document.querySelector(".b2");
+const darkThemeButton = document.querySelector(".darkthemebut");
 
-const saveButton = document.querySelector(".b3");
+const saveButton = document.querySelector(".savebut");
 
-const cancelButton = document.querySelector(".b4");
+const cancelButton = document.querySelector(".cancelbut");
 
 const sideBar = document.querySelector(".sidebar");
 
