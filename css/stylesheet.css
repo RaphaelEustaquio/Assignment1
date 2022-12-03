@@ -80,7 +80,6 @@ footer{
     background-color: grey;
 }
 
-
 .newnotebut{
     background-color: #375D68;
 }
@@ -88,6 +87,7 @@ footer{
 .b1dark{
     background-color: #1b2e34;
 }
+
 .darkthemebut{
     background-color: #57556D;
 }
@@ -142,6 +142,11 @@ textarea:focus{
 .asidelist{
     text-align: left;
     list-style-type: square;
+}
+
+.asidelist > li:hover{
+    color: blue;
+    cursor: pointer;
 }
 
 .liststyle{
