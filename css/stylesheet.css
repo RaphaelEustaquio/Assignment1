@@ -3,7 +3,7 @@ body{
     background-color: #ebd8c1;
     font-family:'Fragment Mono', monospace;
     display: grid;
-    grid-template-rows: 1fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
     height: 100vh;
     margin: 0;
 }
