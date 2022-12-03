@@ -182,6 +182,7 @@ textarea:focus{
 
 .darknotes{
     background-color: grey;
+    color: white;
 }
 
 .white::placeholder{
