@@ -8,7 +8,7 @@ body{
     margin: 0;
 }
 
-nav{
+.navheader{
     grid-row: 1;
     text-align: center;
 }
