@@ -6,7 +6,7 @@ const saveButton = document.querySelector(".savebut");
 
 const cancelButton = document.querySelector(".cancelbut");
 
-const sideBar = document.querySelector(".sidebar");
+const sideBar = document.querySelector(".sidebarheader");
 
 const textArea = document.querySelector(".notes");
 

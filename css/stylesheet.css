@@ -28,7 +28,7 @@ body{
     opacity: 0;
 }
 
-.sidebar{
+.sidebarheader{
     display: flex;
     flex-direction: column;
     color: #35575f;
@@ -157,7 +157,7 @@ textarea:focus{
     body{
         grid-template-columns: 1fr 4fr;
     }
-    .sidebar{
+    .sidebarheader{
         grid-column: 1;
         grid-row: 1/9;
     }
