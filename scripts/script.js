@@ -26,9 +26,6 @@ const notesArray = [
 ];
 
 function darkTheme(){
-    newNoteButton.classList.toggle("b1dark");
-    saveButton.classList.toggle("b3dark");
-    cancelButton.classList.toggle("b4dark");
     sideBar.classList.toggle("sidebardark");
     document.body.classList.toggle("textcontainerdark");
     document.body.classList.toggle("whitetext");
