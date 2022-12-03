@@ -8,32 +8,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Indie+Flower&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <script src="scripts/script.js" defer></script>
     <title>Note-Taking Website</title>
 </head>
 <body>
-    <nav>
-        <header><h1>Take Better Notes</h1></header>
-        <ul class="navlist">
-            <li class="liststyle">About</li>
-            <li class="liststyle">Docs</li>
-        </ul>
-    </nav>
-    <aside>
-        <header><h1>My Notes</h1></header>
-        <ul class="asidelist">
-            <li>note one</li>
-            <li>note two</li>
-        </ul>
-    </aside>
-    <main>
+    <header class="navheader">
+        <h1>Take Better Notes</h1>
+        <nav>
+            <ul class="navlist">
+                <li class="liststyle">About</li>
+                <li class="liststyle">Docs</li>
+            </ul>
+        </nav>
+    </header>
+    <header class="sidebarheader">
+        <h2>My Notes</h2>
+        <aside class="sidebar">
+            <ul class="asidelist">
+                <li>note one</li>
+                <li>note two</li>
+            </ul>
+        </aside>
+    </header>
+    <main class="textcontainer">
         <div class="space d1">
-            <button class="buttonsettings b1" type="button">New Note</button>
-            <button class="buttonsettings b2" type="button">Dark Theme</button>
+            <button class="buttonsettings newnotebut" type="button">New Note</button>
+            <button class="buttonsettings darkthemebut" type="button">Dark Theme</button>
         </div>
-        <textarea name="notes" placeholder="This is a placeholder"></textarea>
+        <textarea class="notes" name="notesarea" placeholder="This is a placeholder"></textarea>
         <div class="space d2">
-            <button class="buttonsettings b3" type="button">Save</button>
-            <button class="buttonsettings b4" type="button">Cancel</button>
+            <button class="buttonsettings savebut" type="button">Save</button>
+            <button class="buttonsettings cancelbut" type="button">Cancel</button>
         </div>
     </main>
     <footer>

@@ -3,24 +3,32 @@ body{
     background-color: #ebd8c1;
     font-family:'Fragment Mono', monospace;
     display: grid;
-    grid-template-rows: 1fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
     height: 100vh;
     margin: 0;
 }
 
-nav{
+.navheader{
     grid-row: 1;
     text-align: center;
 }
 
-main{
+.textcontainer{
     display: grid;
     grid-row: 2;
     text-align: center;
     margin: 10px;
 }
 
-aside{
+.textcontainerdark{
+    background-color: #373737;
+}
+
+.hidetext{
+    opacity: 0;
+}
+
+.sidebarheader{
     display: flex;
     flex-direction: column;
     color: #35575f;
@@ -29,6 +37,11 @@ aside{
     padding: 10px;
     text-align: center;
 }
+
+.sidebardark{
+    background-color: #828385;
+}
+
 
 footer{
     text-align: center;
@@ -67,21 +80,36 @@ footer{
     background-color: grey;
 }
 
-
-.b1{
+.newnotebut{
     background-color: #375D68;
 }
 
-.b2{
+.b1dark{
+    background-color: #1b2e34;
+}
+
+.darkthemebut{
     background-color: #57556D;
 }
 
-.b3{
+.b2dark{
+    background-color: #2b2a36;
+}
+
+.savebut{
     background-color: #355D69;
 }
 
-.b4{
+.b3dark{
+    background-color: #1a2e34;
+}
+
+.cancelbut{
     background-color: #9A342D;
+}
+
+.b4dark{
+    background-color: #4d1a16;
 }
 
 textarea{
@@ -116,6 +144,11 @@ textarea:focus{
     list-style-type: square;
 }
 
+.asidelist > li:hover{
+    color: blue;
+    cursor: pointer;
+}
+
 .liststyle{
     list-style-type: none;
 }
@@ -124,14 +157,14 @@ textarea:focus{
     body{
         grid-template-columns: 1fr 4fr;
     }
-    aside{
+    .sidebarheader{
         grid-column: 1;
         grid-row: 1/9;
     }
     nav{
         grid-column: 2;
     }
-    main{
+    .textcontainer{
         grid-column: 2;
     }
     footer{
@@ -141,4 +174,17 @@ textarea:focus{
     .d1{
         grid-row: 1;
     }
+}
+
+.whitetext{
+    color: white;
+}
+
+.darknotes{
+    background-color: grey;
+    color: white;
+}
+
+.white::placeholder{
+    color: white;
 }
