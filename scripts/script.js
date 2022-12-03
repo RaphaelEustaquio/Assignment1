@@ -68,7 +68,7 @@ function textAreaCheck(){
 }
 
 function displayNote(event){
-    console.log(event.target.textContent)
+    console.log(event.target.textContent);
     for(let note of notesArray){
         if(note.title === event.target.textContent){
             textArea.value = note.body;
