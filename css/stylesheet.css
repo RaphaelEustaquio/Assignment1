@@ -179,3 +179,11 @@ textarea:focus{
 .whitetext{
     color: white;
 }
+
+.darknotes{
+    background-color: grey;
+}
+
+.white::placeholder{
+    color: white;
+}

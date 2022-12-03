@@ -27,9 +27,11 @@ const notesArray = [
 
 function darkTheme(){
     sideBar.classList.toggle("sidebardark");
+    textArea.classList.toggle("darknotes");
     document.body.classList.toggle("textcontainerdark");
     document.body.classList.toggle("whitetext");
     sideBar.classList.toggle("whitetext");
+    textArea.classList.toggle("white")
 }
 
 function changeName(){
